@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: raw
+    database: london-analytics
+    schema: london_analytics_dataset
+    tables:
+      - name: roads_clean
+        description: OS Open Roads loaded from GeoPackage. Geometry stored as WKT string.
+        columns:
+          - name: road_id
+            tests: [unique, not_null]
+          - name: geometry
+            tests: [not_null]
+
+      - name: traffic_counts_clean
+        description: >
+          DfT Average Annual Daily Flow (AADF) count points for London.
+          One row per count point per year. Geometry stored as WKT point (WGS84).
+        columns:
+          - name: count_point_id
+            tests: [not_null]
+          - name: year
+            tests: [not_null]
+          - name: latitude
+            tests: [not_null]
+          - name: longitude
+            tests: [not_null]

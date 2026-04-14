@@ -1,0 +1,14 @@
+name: london_network
+version: "1.0.0"
+
+profile: london_network
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  london_network:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

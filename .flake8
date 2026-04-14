@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 120
+# E221: multiple spaces before operator — intentional column alignment
+# E401: multiple imports on one line — used for stdlib grouping
+# E402: module-level import not at top — needed for sys.path manipulation in DAGs
+extend-ignore = E221, E401, E402

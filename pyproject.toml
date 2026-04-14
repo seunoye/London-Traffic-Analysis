@@ -1,0 +1,23 @@
+[project]
+name = "london-network-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "pyarrow",
+    "geopandas",
+    "shapely",
+    "sqlalchemy",
+    "requests",
+    "numpy",
+    "loguru",
+    "psycopg2-binary",
+    "GeoAlchemy2",
+    "google-cloud-storage",
+    "google-cloud-bigquery",
+    "google-cloud-bigquery-storage",
+    "db-dtypes",
+    "pgcli>=4.4.0",
+]

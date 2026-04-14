@@ -1,0 +1,10 @@
+pandas
+pyarrow
+geopandas
+shapely
+requests
+numpy
+loguru
+google-cloud-bigquery
+dbt-core
+dbt-bigquery

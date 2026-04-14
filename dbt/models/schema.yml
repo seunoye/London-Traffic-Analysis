@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: stg_roads
+    description: Staged OS Open Roads with parsed BigQuery GEOGRAPHY, deduplication, and QA flags.
+    columns:
+      - name: road_id
+        tests: [unique, not_null]
+      - name: geog
+        tests: [not_null]
+
+  - name: stg_traffic_counts
+    description: Staged DfT AADF count points with parsed BigQuery GEOGRAPHY and typed columns.
+    columns:
+      - name: count_point_id
+        tests: [not_null]
+      - name: year
+        tests: [not_null]
+      - name: borough
+        tests: [not_null]
+      - name: geog
+        tests: [not_null]
+
+  - name: mart_road_density_by_borough
+    description: >
+      Road density (km of road per km²) by borough and road type.
+      Partitioned by loaded_date, clustered by borough and road_type for efficient Looker Studio queries.
+    columns:
+      - name: borough
+        tests: [not_null]
+      - name: road_type
+        tests: [not_null]
+
+  - name: mart_borough_traffic_summary
+    description: >
+      Per-borough DfT AADF daily traffic flow totals by year.
+      Includes cycle share percentage for mode-split analysis.
+    columns:
+      - name: borough
+        tests: [not_null]
+      - name: year
+        tests: [not_null]
+
+  - name: mart_borough_network_summary
+    description: Per-borough road count and total length summary.
+    columns:
+      - name: borough
+        tests: [unique, not_null]

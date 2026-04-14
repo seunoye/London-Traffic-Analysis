@@ -1,0 +1,11 @@
+london_network:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: london-analytics
+      dataset: london_analytics_dataset
+      location: US
+      keyfile: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS', '../terraform/keys/la_creds.json') }}"
+      threads: 4

@@ -1,0 +1,39 @@
+<svg width="700" height="340" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="340" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16">
+    <!-- DfT Traffic API -->
+    <rect x="40" y="60" width="180" height="40" fill="#e3e3ff" stroke="#333"/>
+    <text x="130" y="85" text-anchor="middle">DfT Traffic API</text>
+    <!-- Airflow Ingestion -->
+    <rect x="260" y="60" width="180" height="40" fill="#ffe3e3" stroke="#333"/>
+    <text x="350" y="85" text-anchor="middle">Airflow Ingestion</text>
+    <!-- BigQuery Raw Tables -->
+    <rect x="480" y="60" width="180" height="40" fill="#e3ffe3" stroke="#333"/>
+    <text x="570" y="85" text-anchor="middle">BigQuery Raw Tables</text>
+    <!-- dbt Transformations -->
+    <rect x="480" y="140" width="180" height="40" fill="#e3f7ff" stroke="#333"/>
+    <text x="570" y="165" text-anchor="middle">dbt Transformations</text>
+    <!-- BigQuery Marts -->
+    <rect x="480" y="220" width="180" height="40" fill="#fffbe3" stroke="#333"/>
+    <text x="570" y="245" text-anchor="middle">BigQuery Marts</text>
+    <!-- Looker Studio Dashboard -->
+    <rect x="480" y="300" width="180" height="40" fill="#f7e3ff" stroke="#333"/>
+    <text x="570" y="325" text-anchor="middle">Looker Studio Dashboard</text>
+    <!-- Terraform -->
+    <rect x="260" y="300" width="180" height="40" fill="#e3ffe3" stroke="#333"/>
+    <text x="350" y="325" text-anchor="middle">Terraform</text>
+    <!-- Arrows -->
+    <line x1="220" y1="80" x2="260" y2="80" stroke="#333" marker-end="url(#arrow)"/>
+    <line x1="440" y1="80" x2="480" y2="80" stroke="#333" marker-end="url(#arrow)"/>
+    <line x1="570" y1="100" x2="570" y2="140" stroke="#333" marker-end="url(#arrow)"/>
+    <line x1="570" y1="180" x2="570" y2="220" stroke="#333" marker-end="url(#arrow)"/>
+    <line x1="570" y1="260" x2="570" y2="300" stroke="#333" marker-end="url(#arrow)"/>
+    <line x1="350" y1="300" x2="350" y2="100" stroke="#333" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+    <line x1="350" y1="320" x2="480" y2="320" stroke="#333" stroke-dasharray="6,4" marker-end="url(#arrow)"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 L4,5 z" fill="#333" />
+    </marker>
+  </defs>
+</svg>
