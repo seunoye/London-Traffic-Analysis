@@ -296,6 +296,9 @@ Run from `pipeline/`:
 
 ## Dashboard Usage
 
+<img width="809" height="811" alt="image" src="https://github.com/user-attachments/assets/e4b8fe9a-4072-494a-8dfb-7be23dfba71a" />
+
+
 ### Filtering by Borough
 
 1. Click the **Borough** dropdown filter at the top right of the dashboard
