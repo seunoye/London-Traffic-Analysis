@@ -8,6 +8,7 @@ London Borough Traffic Summary 2023 dashboard created with Looker Studio. This d
 
 The dashboard enables quick insights into traffic patterns and modal share across London for 2023.
 
-<img width="920" height="919" alt="image" src="https://github.com/user-attachments/assets/07987ae4-069e-4204-b74b-8b201eb9d5a5" />
+<img width="809" height="811" alt="image" src="https://github.com/user-attachments/assets/730c38ec-a82e-481f-838e-305a79fcc09e" />
+
 
 https://lookerstudio.google.com/reporting/f696d71e-cc63-4750-af9e-6714b4947308
