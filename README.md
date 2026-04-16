@@ -297,6 +297,8 @@ Run from `pipeline/`:
 ## Dashboard Usage
 
 <img width="809" height="811" alt="image" src="https://github.com/user-attachments/assets/e4b8fe9a-4072-494a-8dfb-7be23dfba71a" />
+https://lookerstudio.google.com/reporting/f696d71e-cc63-4750-af9e-6714b4947308
+
 
 
 ### Filtering by Borough
