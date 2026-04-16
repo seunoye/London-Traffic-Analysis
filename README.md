@@ -181,7 +181,7 @@ sources (traffic_counts)
 
 **Current Dataset:**
 
-- ✅ Geographic scope: 32 London boroughs
+- ✅ Geographic scope: 33 London boroughs
 - ✅ Time scope: 2023 annual aggregates
 - ✅ Vehicle types: 6 categories (cars, LGVs, HGVs, motorcycles, cycles, buses)
 - ✅ Metrics: Total counts, averages, percentages
@@ -299,7 +299,7 @@ Run from `pipeline/`:
 ### Filtering by Borough
 
 1. Click the **Borough** dropdown filter at the top right of the dashboard
-2. Select a specific borough (e.g., "Waltham Forest") or keep "All" for London-wide view
+2. Select a specific borough (e.g., "Waltham Forest")
 3. All KPI cards, charts, and table data update automatically
 
 **Example:** Select "Bexley" to see:
@@ -401,7 +401,7 @@ See `.github/workflows/ci.yml` for details.
 
 ## Future Enhancements
 
-### When 2024 data becomes available:
+### Comparison with 2024 data:
 
 - Add year-over-year comparison (2023 vs 2024)
 - Add trend analysis showing monthly progression
@@ -409,12 +409,12 @@ See `.github/workflows/ci.yml` for details.
 - Show seasonal patterns (which months have highest cycling?)
 - Add predictive analysis for future traffic
 
-### If road-level data becomes available:
+### Add road-level data:
 
 - Create separate "Road Network Analysis" dashboard
 - Show road density by type (A-roads, B-roads, residential)
 - Identify busiest individual roads
-- Analyze congestion patterns by road classification
+- Analyse congestion patterns by road classification
 - Map traffic hotspots geographically
 
 ### Additional features:
@@ -437,7 +437,7 @@ Contributions are welcome! Please:
 
 ## License
 
-This project is open source under the MIT License. See LICENSE file for details.
+This project is open source under the MIT License.
 
 ## Contact & Support
 
