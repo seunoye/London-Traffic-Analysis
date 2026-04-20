@@ -174,9 +174,6 @@ sources (traffic_counts)
 | Where are London's busiest road types?    | ❌ No    | Road type data not available in the current dataset                            |
 | How has traffic changed over time?        | ❌ No    | Only 2023 data available; historical comparison requires 2024+ data        |
 
-<img width="920" height="919" alt="image" src="https://github.com/user-attachments/assets/81c1482c-434c-4f5c-82c0-e29bfb524eba" />
-See docs/dashboard.md
-
 
 ## Data Limitations
 
